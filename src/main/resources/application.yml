@@ -1,0 +1,15 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: CONFIG
+  #cloud:
+    #config:
+      #server:
+        #git:
+          #uri: https://github.com/chenwenhua666/config-repo.git
+          #username: chenwenhua666
+          #password: Hidden.dragon_18
+          #basedir: D:\IDEAWorkspace\examCloudLocal\spring_cloud\config\basedir
