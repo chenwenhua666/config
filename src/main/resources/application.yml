@@ -10,6 +10,13 @@ spring:
       server:
         git:
           uri: https://github.com/chenwenhua666/config-repo.git
-          username: chenwenhua666
-          password: Hidden.dragon_18
+          #username: chenwenhua666
+          #password:
           basedir: D:\IDEAWorkspace\examCloudLocal\spring_cloud\config\basedir
+          timeout: 60
+          force-pull: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
